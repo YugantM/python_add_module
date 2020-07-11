@@ -5,12 +5,12 @@ setup(
   version = '1.0',      
   license='MIT',        
   description = 'This package returns addition of two integers.',   
-  url = 'https://github.com/YugantM/python_add_module',   
-  download_url = 'https://github.com/YugantM/python_add_module.git',
+  url = 'https://github.com/majorx234/python-add',   
+  download_url = 'https://github.com/majorx234/python-add.git',
   entry_points = {
-              'console_scripts': ['add = add.main:main',],
+              'console_scripts': ['add = add.__main__:main',],
               },
-  
+  scripts=['scripts/add'],  
   keywords = ['addition', 'calculation'],  
   
   classifiers=[

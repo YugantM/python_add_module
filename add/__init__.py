@@ -1,1 +1,1 @@
-import add
+"The add module"
