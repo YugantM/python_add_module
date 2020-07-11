@@ -1,7 +1,7 @@
 from distutils.core import setup
 setup(
-  name = 'python-add',         
-  packages = ['python-add'],   
+  name = 'add',         
+  packages = ['add'],   
   version = '1.0',      
   license='MIT',        
   description = 'This package returns addition of two integers.',   
