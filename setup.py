@@ -5,8 +5,8 @@ setup(
   version = '1.0',      
   license='MIT',        
   description = 'This package returns addition of two integers.',   
-  url = 'https://github.com/majorx234/python-add',   
-  download_url = 'https://github.com/majorx234/python-add.git',
+  url = 'https://github.com/yugantm/python-add',   
+  download_url = 'https://github.com/yugantm/python-add.git',
   entry_points = {
               'console_scripts': ['add = add.__main__:main',],
               },
