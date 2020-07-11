@@ -5,8 +5,13 @@ setup(
   version = '1.0',      
   license='MIT',        
   description = 'This package returns addition of two integers.',   
+<<<<<<< HEAD
   url = 'https://github.com/yugantm/python-add',   
   download_url = 'https://github.com/yugantm/python-add.git',
+=======
+  url = 'https://github.com/yugantm/python_add_module',   
+  download_url = 'https://github.com/yugantm/python_add_module.git',
+>>>>>>> dc297bd6fcd4e4ce1a56a4ec1b022c45bc6bb2de
   entry_points = {
               'console_scripts': ['add = add.__main__:main',],
               },
