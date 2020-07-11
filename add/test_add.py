@@ -1,5 +1,5 @@
 import unittest
-import add
+from add import add
 
 class TestClass(unittest.TestCase):
 	def test_function(self):
