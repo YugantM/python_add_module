@@ -17,8 +17,8 @@ stages{
 	stage('Testing') {
 		steps{	
 			echo 'testings starts...'	
-		 	sh 'cd ./add'
-		 	sh 'ls'
+		 	
+		 	sh 'ls ./add'
 		 	sh 'python test_add.py'
 		}
 	}
