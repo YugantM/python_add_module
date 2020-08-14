@@ -24,7 +24,7 @@ stages{
 	stage('Package'){
 		steps{
 			echo 'packaging starts...'
-			sh 'sudo python setup.py install --skip-build'
+			sh 'python setup.py install --skip-build'
 		}
 	}
 
