@@ -6,7 +6,7 @@ stages{
 	stage('Build'){
 		steps{
 			echo 'building process starts...'
-			sh 'cd ./src/add'
+			sh 'cd add'
 			sh 'python setup.py build'
 		}
 	}
