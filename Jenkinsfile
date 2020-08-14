@@ -18,7 +18,7 @@ stages{
 		steps{	
 			echo 'testings starts...'	
 		 	
-		 	sh 'ls ./add'
+		 	sh 'cd ./add'
 		 	sh 'python test_add.py'
 		}
 	}
@@ -26,7 +26,7 @@ stages{
 	stage('Package'){
 		steps{
 			echo 'packaging starts...'
-			sh 'cd ./add'
+			sh 'cd add'
 			sh 'python setup.py install --root="$pkgdir/" --optimize=1 --skip-build'
 		}
 	}
