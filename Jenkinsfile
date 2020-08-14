@@ -6,7 +6,7 @@ stages{
 	stage('Build'){
 		steps{
 			echo 'desplaying the repo'
-			echo 'ls'
+			sh 'ls'
 			echo 'building process starts...'
 			sh 'cd add'
 			sh 'python setup.py build'
