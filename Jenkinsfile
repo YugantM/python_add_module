@@ -24,7 +24,7 @@ stages{
 	stage('Package'){
 		steps{
 			echo 'packaging starts...'
-			sh 'python setup.py install --root="$pkgdir/" --optimize=1 --skip-build'
+			sh 'python setup.py install'
 		}
 	}
 
