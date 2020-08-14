@@ -26,7 +26,7 @@ stages{
 		steps{
 			sh 'ls'
 			echo 'packaging starts...'
-			sh 'sudo python setup.py install --skip-build'
+			sh 'sudo python setup.py install --root="$pkgdir/" --optimize=1 --skip-build'
 			sh 'ls'
 		}
 	}
