@@ -26,6 +26,7 @@ stages{
 			sh 'ls'
 			echo 'packaging starts...'
 			sh 'sudo chown root:python setup.py install --skip-build'
+			sh 'ls'
 		}
 	}
 
