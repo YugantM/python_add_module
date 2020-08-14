@@ -17,16 +17,13 @@ stages{
 	stage('Testing') {
 		steps{	
 			echo 'testings starts...'	
-		 	
-		 	sh 'cd ./add'
-		 	sh 'python test_add.py'
+		 	sh 'python ./add/test_add.py'
 		}
 	}
 
 	stage('Package'){
 		steps{
 			echo 'packaging starts...'
-			sh 'cd add'
 			sh 'python setup.py install --root="$pkgdir/" --optimize=1 --skip-build'
 		}
 	}
