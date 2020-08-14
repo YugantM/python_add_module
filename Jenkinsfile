@@ -9,6 +9,7 @@ stages{
 			sh 'ls'
 			echo 'building process starts...'
 			sh 'cd add'
+			sh 'ls'
 			sh 'python setup.py build'
 		}
 	}
@@ -16,7 +17,7 @@ stages{
 	stage('Testing') {
 		steps{	
 			echo 'testings starts...'	
-		 	sh 'cd ./add'
+		 	sh 'cd ./add/add'
 		 	sh 'python test_add.py'
 		}
 	}
